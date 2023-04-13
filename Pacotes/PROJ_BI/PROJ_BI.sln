@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "PROJ_ETL", "PROJ_ETL\PROJ_ETL.dtproj", "{7870120D-D136-4E00-854C-6A837D095C4F}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "PROJ_OLAP", "PROJ_OLAP\PROJ_OLAP.dwproj", "{4F1D6C21-D5D1-4751-83A2-22C4B8DDE7C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+		t|Default = t|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7870120D-D136-4E00-854C-6A837D095C4F}.Development|Default.ActiveCfg = Development
+		{7870120D-D136-4E00-854C-6A837D095C4F}.Development|Default.Build.0 = Development
+		{7870120D-D136-4E00-854C-6A837D095C4F}.t|Default.ActiveCfg = Development
+		{7870120D-D136-4E00-854C-6A837D095C4F}.t|Default.Build.0 = Development
+		{4F1D6C21-D5D1-4751-83A2-22C4B8DDE7C2}.Development|Default.ActiveCfg = Development
+		{4F1D6C21-D5D1-4751-83A2-22C4B8DDE7C2}.Development|Default.Build.0 = Development
+		{4F1D6C21-D5D1-4751-83A2-22C4B8DDE7C2}.Development|Default.Deploy.0 = Development
+		{4F1D6C21-D5D1-4751-83A2-22C4B8DDE7C2}.t|Default.ActiveCfg = Development
+		{4F1D6C21-D5D1-4751-83A2-22C4B8DDE7C2}.t|Default.Build.0 = Development
+		{4F1D6C21-D5D1-4751-83A2-22C4B8DDE7C2}.t|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61BD36C2-5F56-4570-833D-3EB1E5A29FD8}
+	EndGlobalSection
+EndGlobal

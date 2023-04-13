@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="BIROOT ROOT.COMERCIO_STAGE"
+  DTS:DTSID="{F646A245-C988-4C49-8B82-DB1791ECF573}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=BIROOT\ROOT;Initial Catalog=COMERCIO_STAGE;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{F646A245-C988-4C49-8B82-DB1791ECF573}BIROOT\ROOT.COMERCIO_STAGE;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

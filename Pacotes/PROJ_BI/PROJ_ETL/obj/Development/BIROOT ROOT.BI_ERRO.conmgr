@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="BIROOT ROOT.BI_ERRO"
+  DTS:DTSID="{D06C8ED6-E87C-4208-A156-4A777A9BEA86}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=BIROOT\ROOT;Initial Catalog=BI_ERRO;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-CARGA_CLIENTE-{D06C8ED6-E87C-4208-A156-4A777A9BEA86}BIROOT\ROOT.BI_ERRO;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
